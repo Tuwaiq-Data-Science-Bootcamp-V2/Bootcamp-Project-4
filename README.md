@@ -54,3 +54,9 @@ The dataset is available through the [kaggle.](https://www.kaggle.com/datasets/m
 | Linear Regression|MAE: 43.38 |
 | |MSE: 4147.38 |
 | |RMSE: 64.40 |
+
+## The best classification model was the Random Forest with accuracy 65%.
+## The best regression model was the Linear with the men errors were:
+MAE: 43.38679436056637
+MSE: 4147.385233005436
+RMSE: 64.40019590812932  .
