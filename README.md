@@ -1,27 +1,28 @@
-# Bootcamp-Project-4
+# Tamheer Data Analysis & ML Training
 
-Based on what you’ve learned until now, use NumPy, pandas, matplotlib, seaborn, and scikit-learn to create a project of your choosing. 
+## Data Science Bootcamp Project 4
 
-This project must at least satisfy the following minimum requirements:
+### Team members
 
-- Choose a public dataset that needs to clean and preprocess.
-- EDA
-    - Apply the essential EDA steps: head, shape, info, describe, missing values.
-    - Display different charts that give an overview of your data.
-- Use train-test split methods.
-- Choose at least two proper ML Algorithms (either classification or regression).
-- Report appropriate evaluation metrics for each model.
-- Create a chart that compares the final results of your selected models.
-- Write a final conclusion and recommendations (your interpretation of the results).
-- Report your final conclusion and findings in one page (readme markdown file).
-    - Team members and their roles.
-    - Introduction (problem or your goal).
-    - Dataset Overview and Source.
-    - A table represents the final results of ML models.
-- Due Date: Sat, 11 Feb, at 11:45 p.m.
-- The Final presentation will be on Sunday (10 min for each group).
+| Team members   | Role |
+| ----------- | ----------- |
+| Shatha alyousef | EDA, Encoding , Random Forest algorithm, classification report, README File Arrangement |
+| Ali Almuhaysin | Logistics Regression, KNN, 2 Visualization, Final evaluation report, Fromat and Styling |
+| Lama Almugren | imported several libraries such as numpy, pandas, matplotlib, arabic_reshaper, and sklearn.  loaded the data from a csv file "tamheer_2022.csv" into a pandas dataframe called "df".  preprocessed by dropping some columns and removing any rows with missing values in specific columns.  used the matplotlib library to create different plots such as bar plots and pie charts to visualize the distribution of data in the dataframe.  used the Arabic reshaper library to display Arabic text in the plots correctly.  created a correlation matrix to find the relationships between different columns.   split the data into a training and testing set using the train_test_split function from the sklearn library. |
 
-**Final Deliverables:**
-- Notebook file(.ipynb).
-- Dataset file.
-- README.md file.
+### Problem
+
+The problem here is that some trainees withdraw from the Tamheer program after a certain period of their registration has passed. Therefore, we created a model that predicts the possibility of the trainee completing or withdrawing from the Tamheer program.
+
+### Dataset Overview
+
+The dataset was taken from open data and contains the following columns: ID - The gender of the trainee - City Apprentice - Trainee District - Specialization of the trainee - Trainee Qualification - Trainee rate - rate from - The age of the trainee is - Trainee status - Name of the training opportunity - The economic activity of the training opportunity - Training qualification - The size of the training institution - The economic activity of the training institution - The educational institution of the trainee
+
+### Final results of ML models
+
+ ML algorithm   | Accuracy |
+| ----------- | ----------- |
+| Decision Tree | 99.06% |
+| Random Forest | 99.26% |
+| KNN | 81.3% |
+| Logistic Regression | 66.3% |
