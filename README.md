@@ -1,27 +1,34 @@
-# Bootcamp-Project-4
+# Noon Perfume
 
-Based on what you’ve learned until now, use NumPy, pandas, matplotlib, seaborn, and scikit-learn to create a project of your choosing. 
 
-This project must at least satisfy the following minimum requirements:
+## Team members
 
-- Choose a public dataset that needs to clean and preprocess.
-- EDA
-    - Apply the essential EDA steps: head, shape, info, describe, missing values.
-    - Display different charts that give an overview of your data.
-- Use train-test split methods.
-- Choose at least two proper ML Algorithms (either classification or regression).
-- Report appropriate evaluation metrics for each model.
-- Create a chart that compares the final results of your selected models.
-- Write a final conclusion and recommendations (your interpretation of the results).
-- Report your final conclusion and findings in one page (readme markdown file).
-    - Team members and their roles.
-    - Introduction (problem or your goal).
-    - Dataset Overview and Source.
-    - A table represents the final results of ML models.
-- Due Date: Sat, 11 Feb, at 11:45 p.m.
-- The Final presentation will be on Sunday (10 min for each group).
+| Team members   | Role |
+| ----------- | ----------- |
+| Alaa |  |
+| Khalid | |
+| Raghad Alsalamah | |
 
-**Final Deliverables:**
-- Notebook file(.ipynb).
-- Dataset file.
-- README.md file.
+## Goal:
+The aim of this project is to know the highest rated perfumes. This will help to know the most purchased products so tha sellers can provide these products or help producers produce perfumes similar to the highest rated perfumes.
+
+## Dataset:
+Noon is the lifestyle shopping destination for the region in Saudi Arabia, with the largest online selection of leading brands in categories such as electronics, fashion, health & beauty, fragrances, grocery, baby products, and homeware. Noon is a large online marketplace in the Middle East.
+Data was collected from the perfume section for female, male, and unisex departments.This dataset shows the scent notes of perfume in different brands. Since perfume is a product category that has a high profit margin in this region.
+
+The dataset is available through the [kaggle.](https://www.kaggle.com/datasets/monirahabdulaziz/noon-perfume)
+
+
+## Final results of ML models
+
+|    | Results |
+| ----------- | ----------- |
+| 1|  |
+| 2|  |
+| 3|  |
+| 4|  |
+| 5|  |
+| 6|  |
+| 7|  |
+| 8|  |
+| 9|  |
