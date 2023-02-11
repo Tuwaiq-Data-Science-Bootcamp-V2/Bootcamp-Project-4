@@ -13,7 +13,7 @@ the game according to the available data.
 | Waleed Almutairi  | 2-Charts  , ML DecisionTreeClassifier and Markdown.        |
 
 
-## Dataset Overview:
+## Dataset Overview
 This data contains the name for 1895 games with 34 of ESRB rating content 
 with the name and console as features for each game.
 
@@ -25,7 +25,7 @@ Console and a binary vector for the features of ESRB content.
 [Dataset](https://www.kaggle.com/datasets/imohtn/video-games-rating-by-esrb)
 
 
-## Dataset Description:
+## Dataset Description
 | Column                   | Description                                                                                                                                                         |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | title                    | Name of the game.                                                                                                                                                   |
@@ -63,7 +63,7 @@ Console and a binary vector for the features of ESRB content.
 | Violence                 | Scenes involving aggressive conflict. May contain bloodless dismemberment.                                                                                          |
 | ESRB_rating              | rating: RP - EC - E - E+10 - T - M - A                                                                                                                              |
 
-## ESRB rating description:
+## ESRB rating description
 | ESRB_rating | Description     |
 |-------------|-----------------|
 | RP          | Rating Pending  |
@@ -74,11 +74,12 @@ Console and a binary vector for the features of ESRB content.
 | M           | Mature          |
 | A           | Adult           |
 
-## Final results of ML models.
+## Final results of ML models
 
 | Algorithms    | Time(s)            | Accuracy(%)        |
 |---------------|--------------------|--------------------|
-| Decision Tree | Faster (0.01-0.05) | Lower (85%-90%)    |
-| Random Forest | Slower (0.70-0.80) | Higher (80%-83%)   |
+| Decision Tree | Faster (0.01-0.05) | Lower   (80%-83%)  |
+| Random Forest | Slower (0.70-0.80) | Higher (85%-90%)   |
 
-
+##  final conclusion
+ We conclude that ESRB take a lot of types of content in consideration to rate the game properly, and we can see from the charts that each content type has a different effect on the rating for example, most of the games that has strong language content is for matures, so it is a useful idea to build a machine learning module to predict the ratings
