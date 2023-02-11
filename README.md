@@ -1,27 +1,70 @@
-# Bootcamp-Project-4
+# **Kids Hobby Prediction**
 
-Based on what you’ve learned until now, use NumPy, pandas, matplotlib, seaborn, and scikit-learn to create a project of your choosing. 
+<img src="kids.jpg" width="1500" height="650" />
 
-This project must at least satisfy the following minimum requirements:
+### **Hobbies for kids** are healthy, beneficial, and act as both a means of self-discovery and self-expression. Hobbies help children build up confidence, set goals, and embrace the concept of downtime. They also remove children from their iPads and plug them back into a life of passion and joy.
 
-- Choose a public dataset that needs to clean and preprocess.
-- EDA
-    - Apply the essential EDA steps: head, shape, info, describe, missing values.
-    - Display different charts that give an overview of your data.
-- Use train-test split methods.
-- Choose at least two proper ML Algorithms (either classification or regression).
-- Report appropriate evaluation metrics for each model.
-- Create a chart that compares the final results of your selected models.
-- Write a final conclusion and recommendations (your interpretation of the results).
-- Report your final conclusion and findings in one page (readme markdown file).
-    - Team members and their roles.
-    - Introduction (problem or your goal).
-    - Dataset Overview and Source.
-    - A table represents the final results of ML models.
-- Due Date: Sat, 11 Feb, at 11:45 p.m.
-- The Final presentation will be on Sunday (10 min for each group).
+---
 
-**Final Deliverables:**
-- Notebook file(.ipynb).
-- Dataset file.
-- README.md file.
+### Teenagers tend to have confusion in deciding which Field/Hobby they fit in or love to do, that's why we decided to work with this Dataset.
+[Dataset Link](https://www.kaggle.com/datasets/abtabm/hobby-prediction-basic)
+
+| Features  | Meaning|
+|:----------|:-------|
+| Olympiad_Participation    | Has your child participated in any Science/Maths Olympiad?|
+| Scholarship | Has he/she received any scholarship?|
+| School | Love's going to school?|
+| Fav_sub | What is his/her favorite subject?|
+| Projects | Has done any projects under academics before?|
+| Grasp_pow | His/Her Grasping power (1-6)|
+| Time_sprt | How much time does he/she spend playing outdoor/indoor games?|
+| Medals | Medals won in Sports?|
+| Career_sprt | Want's to pursue his/her career in sports?|
+| Act_sprt | Regular in his/her sports activities?|
+| Fant_arts | Love creating fantasy paintings?|
+| Won_arts | Won art competitions?|
+| Time_art | Time utilized in Arts?|
+
+---
+
+**We have noticed that most of the results of the predictions for the child's hobby were in the academic field, and we have test several models, and the highest accuracy was Random Forest, with a percentage of 91%**
+## ML Models we've used:
+
+- **Decision Tree Classifier**
+- **Random Forest Classifier**
+- **Naive Bayes**
+- **K-Nearest Neighbors**
+- **Kernel SVM**
+- **Logistic Regression**
+
+---
+
+## Team members and their roles:
+
+- **Manar Alabdulkarim**
+    
+   - Decision tree model
+   - Naive bayes model
+   - Random Forest model
+   - Prediction by user input
+
+
+- **Reef Alsahli**
+
+   - 3 Charts to give overview of data
+   - Chart that compare algorithms
+
+
+- **Mohammed Alshaikh**
+
+    - Logistic Regression Model
+    - One Chart
+    - Arranging and Preparing the Final Work
+
+
+- **Saeed Alshahrani**
+
+    - K-Nearest Neighbors Model
+    - Kernel SVM Model
+    - One Chart
+    - Markdown File
