@@ -5,12 +5,12 @@
 
 | Team members   | Role |
 | ----------- | ----------- |
-| Alaa | EDA, Visualization |
-| Khalid | Visualization|
-| Raghad Alsalamah |Markdown, Visualization |
+| Alaa | EDA, Visualization,ML |
+| Khalid | Visualization,ML|
+| Raghad Alsalamah |Markdown, Visualization,ML |
 
 ## Goal:
-The aim of this project is to know the highest rated perfumes. This will help to know the most purchased products so tha sellers can provide these products or help producers produce perfumes similar to the highest rated perfumes.
+The aim of this project is to use ML to predict scents of perfumes based on some features. This will help to know the most popular scents of perfume so the sellers can provide these perfume or help producers to produce similar perfume.
 
 ## Dataset:
 Noon is the lifestyle shopping destination for the region in Saudi Arabia, with the largest online selection of leading brands in categories such as electronics, fashion, health & beauty, fragrances, grocery, baby products, and homeware. Noon is a large online marketplace in the Middle East.
@@ -32,8 +32,8 @@ The dataset is available through the [kaggle.](https://www.kaggle.com/datasets/m
 | middle_note|  Indicates to the middle note.|
 | item_rating | Indicates to item rating. |
 | seller | Indicates to seller of perfume. |
-| seller_rating | Indicates to seller rating. |
-| num_seller_ratings | Indicates num seller ratings |
+| seller_rating | Indicates to seller rating out of 5. |
+| num_seller_ratings | Indicates total numbers of buyers. |
 | discount% | Indicates to the discount amount percentage. |
 | discount_price |  Indicates to the amount of the discount |
 | price/ml |  Indicates the price for each capacity |
@@ -42,7 +42,15 @@ The dataset is available through the [kaggle.](https://www.kaggle.com/datasets/m
 
 |  ML model  | Accurecy |
 | ----------- | ----------- |
-| 1|  |
-| 2|  |
-| 3|  |
-| 4|  |
+| RandomForestClassifier|0.65  |
+| Logistic Regression|0.41  |
+| SVC|0.41  |
+| KNN|0.38  |
+| GaussianNB|0.36  |
+| DT|0.61  |
+
+|  ML model  | Mean Error |
+| ----------- | ----------- |
+| Linear Regression|MAE: 43.38 |
+| |MSE: 4147.38 |
+| |RMSE: 64.40 |
