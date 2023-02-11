@@ -43,8 +43,4 @@ The Dataset consist of 15 columns and 13913 rows.
 | ----------- | ----------- |
 | **Decision Tree**  | 0.51 |
 | **Random Forest**  | 0.54 |
-### Regression to predict 'قيمة التمويل'
-| **ML model** | **R2 score** |
-| ----------- | ----------- |
-| **Linear regression**  | 0.6 |
-| **Logistic regression**  |  -0.004 |
+
