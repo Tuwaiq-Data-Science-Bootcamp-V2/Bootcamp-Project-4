@@ -52,10 +52,10 @@ So all the morphological quantities can be reproduced from just the following fe
 ## ML models comparison
 | Model               | Accuracy                                                                                                                                                              |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-Logistic regression |	0.555556
-KNN	|0.672222
-Decision Tree	|0.827778
-Random Forest|	0.861111
+Logistic regression |	0.866667
+KNN	|0.877778
+Decision Tree	|0.816667
+Random Forest|	0.883333
 
 
 ## The reason for choosing the ML Models:
