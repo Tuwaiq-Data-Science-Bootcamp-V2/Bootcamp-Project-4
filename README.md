@@ -1,27 +1,23 @@
-# Bootcamp-Project-4
+## Team members
 
-Based on what you’ve learned until now, use NumPy, pandas, matplotlib, seaborn, and scikit-learn to create a project of your choosing. 
+| Team members   | Role |
+| ----------- | ----------- |
+| Shatha alyousef |EDA, Encoding and Random Forest algorithm |
+| Ali |EDA, KNN algorithm|
+| lama |Create 2 plots, EDA |
 
-This project must at least satisfy the following minimum requirements:
+## Problem
 
-- Choose a public dataset that needs to clean and preprocess.
-- EDA
-    - Apply the essential EDA steps: head, shape, info, describe, missing values.
-    - Display different charts that give an overview of your data.
-- Use train-test split methods.
-- Choose at least two proper ML Algorithms (either classification or regression).
-- Report appropriate evaluation metrics for each model.
-- Create a chart that compares the final results of your selected models.
-- Write a final conclusion and recommendations (your interpretation of the results).
-- Report your final conclusion and findings in one page (readme markdown file).
-    - Team members and their roles.
-    - Introduction (problem or your goal).
-    - Dataset Overview and Source.
-    - A table represents the final results of ML models.
-- Due Date: Sat, 11 Feb, at 11:45 p.m.
-- The Final presentation will be on Sunday (10 min for each group).
+The problem here is that some trainees withdraw from the Tamheer program after a certain period of their registration has passed. Therefore, we created a model that predicts the possibility of the trainee completing or withdrawing from the Tamheer program.
 
-**Final Deliverables:**
-- Notebook file(.ipynb).
-- Dataset file.
-- README.md file.
+## Dataset Overview
+
+The dataset was taken from open data and contains the following columns: ID - The gender of the trainee - City Apprentice - Trainee District - Specialization of the trainee - Trainee Qualification - Trainee rate - rate from - The age of the trainee is - Trainee status - Name of the training opportunity - The economic activity of the training opportunity - Training qualification - The size of the training institution - The economic activity of the training institution - The educational institution of the trainee
+
+## final results of ML models
+
+ ML algorithm   | Accuracy |
+| ----------- | ----------- |
+| decision tree |99% |
+| random forest |99%|
+| KNN |%|
