@@ -18,6 +18,6 @@ The dataset was taken from open data and contains the following columns: ID - Th
 
  ML algorithm   | Accuracy |
 | ----------- | ----------- |
-| decision tree |99% |
-| random forest |99%|
-| KNN |%|
+| decision tree |99.06% |
+| random forest |99.26%|
+| KNN |66.34%|
