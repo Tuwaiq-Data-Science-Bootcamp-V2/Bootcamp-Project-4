@@ -9,7 +9,7 @@ the game according to the available data.
 | Team members      | Role                                                       |
 |-------------------|------------------------------------------------------------|
 | Sulaiman (Leader) | EDA, 4-Charts, support of ML and Comparison of two models. |
-| Razan Fahad       | 1-Charts and ML Random forest.                             |
+| Razan Fahad       | 1-Charts and ML Random forest ,k-nearest neighbors,Naive Bayes|
 | Waleed Almutairi  | 2-Charts  , ML DecisionTreeClassifier and Markdown.        |
 
 
